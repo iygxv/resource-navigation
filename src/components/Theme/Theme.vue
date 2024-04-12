@@ -1,7 +1,12 @@
-
+<!--
+ * @Description:定制主题组件
+ * @Date: 2021-06-03 16:42:35
+ * @LastEditTime: 2021-06-09 10:08:53
+ * @FilePath: \WarblerHomepage\src\components\Theme\Theme.vue
+-->
 <template>
   <i class="iconfont theme-icon" @click='openDialog'>&#xe66b;</i>
-  
+  <!-- 主题定制的弹窗 -->
   <Dialog ref='dialog' :dialog-visible='state.isShowThemeDialog' @cancle='closeThemeDialog' @confirm='submit' title='定制主题' class="theme-dialog" width='500px'>
     <color-select v-for='(item) in state.theme' :key='item.title' v-model='item.content'></color-select>
   </Dialog>

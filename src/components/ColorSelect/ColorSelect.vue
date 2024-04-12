@@ -1,4 +1,9 @@
-
+<!--
+ * @Description:
+ * @Date: 2021-06-03 16:06:43
+ * @LastEditTime: 2021-06-07 18:00:18
+ * @FilePath: \WarblerHomepage\src\components\ColorSelect\ColorSelect.vue
+-->
 <template>
   <div class="color-select-box">
     <div>{{colorTitle}}</div>

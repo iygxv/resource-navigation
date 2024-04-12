@@ -1,3 +1,10 @@
+/*
+ * @Description:收藏夹组件中跟书签相关的操作
+ * @Date: 2021-04-26 16:23:29
+ * @LastEditTime: 2021-06-07 17:18:38
+ * @FilePath: \WarblerHomepage\src\components\BookMark\useMarks.ts
+ */
+
 import { ComputedRef } from 'vue';
 import { MarkProps } from 'coms/MarkList/index';
 import defaultImgUrl from 'assets/favicon.png';

@@ -62,17 +62,22 @@ export default defineComponent({
     max-height: 450px;
     overflow: auto;
     &::-webkit-scrollbar {
-            width: 4px;
-            height: 5px;
+      /*滚动条整体样式*/
+      width: 4px;
+      /*高宽分别对应横竖滚动条的尺寸*/
+      height: 5px;
     }
 
     &::-webkit-scrollbar-thumb {
-            background-color: rgba(255, 255, 255, 0.5);
+      /*滚动条里面小方块*/
+      background-color: rgba(255, 255, 255, 0.5);
       border-radius: 10px;
     }
 
     &::-webkit-scrollbar-track {
-                  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+      /*滚动条里面轨道*/
+      /* 阴影 */
+      -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
       background: transparent;
     }
     ul {

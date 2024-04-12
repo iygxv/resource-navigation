@@ -1,4 +1,9 @@
-
+<!--
+ * @Description:社交媒体图标组件
+ * @Date: 2021-05-03 13:07:54
+ * @LastEditTime: 2021-05-17 18:02:10
+ * @FilePath: \warbler-homepage\src\components\SocialContact\SocialContact.vue
+-->
 <template>
   <div class="social-contact-box">
     <div v-for='(item,index) in initData' :key='index' class="item" @click='enter(item.targetUrl)'>

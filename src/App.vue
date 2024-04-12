@@ -1,7 +1,13 @@
-
+<!--
+ * @Description:VUE根节点
+ * @Date: 2021-04-15 11:38:49
+ * @LastEditTime: 2021-06-03 16:25:55
+ * @FilePath: \WarblerHomepage\src\App.vue
+-->
 <template>
   <social-contact></social-contact>
   <Bookmark></Bookmark>
+  <!-- <Background /> -->
 </template>
 <script lang='ts'>
 import { defineComponent } from 'vue';

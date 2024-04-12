@@ -1,4 +1,9 @@
-
+<!--
+ * @Description:input输入框组件
+ * @Date: 2021-04-24 21:26:33
+ * @LastEditTime: 2021-05-12 11:07:00
+ * @FilePath: \warbler-homepage\src\baseComponents\Input\Wh-input.vue
+-->
 <template>
   <div class="wh-input-box" :style='{width:width,padding:padding}'>
     <input class="wh-input" v-model="value" @change='validateInput' v-bind='$attrs'>

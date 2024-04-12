@@ -1,4 +1,10 @@
 import { reactive } from 'vue';
+/*
+ * @Description:拖放hooks
+ * @Date: 2021-06-02 14:35:21
+ * @LastEditTime: 2021-06-07 15:34:40
+ * @FilePath: \WarblerHomepage\src\hooks\useDraggable.ts
+ */
 
 export interface DragState {
   oldItemIndex: number;

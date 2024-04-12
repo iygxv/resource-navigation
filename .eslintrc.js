@@ -1,3 +1,9 @@
+/*
+ * @Description:代码规范文件
+ * @Date: 2021-03-29 19:03:25
+ * @LastEditTime: 2022-03-11 13:45:13
+ * @FilePath: \warbler-homepage\.eslintrc.js
+ */
 module.exports = {
   root: true,
   env: {

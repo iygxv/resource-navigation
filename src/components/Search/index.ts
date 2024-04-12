@@ -1,3 +1,9 @@
+/*
+ * @Description:搜索组件
+ * @Date: 2021-05-13 10:45:27
+ * @LastEditTime: 2021-05-13 17:30:11
+ * @FilePath: \warbler-homepage\src\components\Search\index.ts
+ */
 export type SearchType = 'baidu' | 'biying' | 'google' | 'fanyi';
 
 export interface IconData {

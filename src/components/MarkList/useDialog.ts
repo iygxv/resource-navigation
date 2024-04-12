@@ -1,3 +1,9 @@
+/*
+ * @Description:书签列表组件中跟Dialog相关操作
+ * @Date: 2021-04-26 16:49:08
+ * @LastEditTime: 2021-06-02 14:40:25
+ * @FilePath: \WarblerHomepage\src\components\MarkList\useDialog.ts
+ */
 import { reactive } from 'vue';
 import { MarkProps, DialogState, DialogFormState } from 'coms/MarkList/index';
 import { RulesProp } from 'base/Input/index';

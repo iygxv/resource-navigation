@@ -1,3 +1,9 @@
+/*
+ * @Description:创建DOM节点的hook函数 在body中插入一个自定义id的div节点 setup函数在执行时等同于created 所以没必要写入生命周期
+ * @Date: 2021-04-16 16:28:45
+ * @LastEditTime: 2021-05-06 18:12:14
+ * @FilePath: \warbler-homepage\src\hooks\useDOMCreate.ts
+ */
 import { onUnmounted } from 'vue';
 
 const useDOMCreate = (nodeId: string): HTMLDivElement => {

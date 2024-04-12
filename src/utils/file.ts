@@ -1,3 +1,10 @@
+/*
+ * @Description:文件上传和下载的方法
+ * @Date: 2021-05-13 18:20:44
+ * @LastEditTime: 2021-05-17 10:50:51
+ * @FilePath: \warbler-homepage\src\utils\file.ts
+ */
+
 import createMessage from 'base/Message/index';
 
 // 文件下载

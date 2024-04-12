@@ -1,3 +1,10 @@
+/*
+ * @Description:input组件
+ * @Date: 2021-04-24 21:50:03
+ * @LastEditTime: 2021-04-27 16:08:34
+ * @FilePath: \warbler-homepage\src\baseComponents\Input\index.ts
+ */
+
 // 单个验证规则
 export type RuleType = 'required' | 'maxlength' | 'custom';
 export interface RuleProp {

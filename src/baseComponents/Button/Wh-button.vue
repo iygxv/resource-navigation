@@ -1,4 +1,9 @@
-
+<!--
+ * @Description:按钮组件
+ * @Date: 2021-04-22 16:56:06
+ * @LastEditTime: 2021-05-06 17:55:56
+ * @FilePath: \warbler-homepage\src\baseComponents\Button\Wh-button.vue
+-->
 <template>
   <div class="wh-button-box">
     <div class="btn">

@@ -1,4 +1,14 @@
-
+<!--
+ * @Description:标签列表组件
+ * @Date: 2021-04-21 19:10:21
+ * @LastEditTime: 2021-06-03 14:48:41
+ * @FilePath: \WarblerHomepage\src\components\LabelList\LabelList.vue
+-->
+<template>
+  <div class="label-list-box">
+    <!-- 循环生成标签列表 -->
+    <div :draggable="editMode" @dragend="dragendFn()" @dragstart="handleDragstart(index)" @drop.prevent="handleDrop()" @dragover.prevent="handleDragover(index)" v-for='(item,index) in labelList' :key='index' class="label" @click.prevent='changeLabel(index ,"click")' @mouseenter="changeLabel(index,'hover')" @mouseleave="changeLabel(-1,'hover')" :class='{currentClick:currentId===index,currentHover:currentHoverLabel===index,isDragging:index === newItemIndex}'>
+      <!-- 标签标题 -->
       <i class="iconfont">&#xe610;</i>
       <div :title='item.title' class="label-title">
         {{item.title}}
@@ -9,7 +19,7 @@
       </div>
     </div>
   </div>
-  
+  <!-- 添加单个标签的弹窗 -->
   <Dialog :dialog-visible='isShowLabelDialog' @cancle='closeLabelDialog' @confirm="handleLabel(handleType)" :title='dialogTitle'>
     <wh-from ref='form'>
       <wh-input :rules='rules' type="text" v-model="labelTitle" placeholder="请输入标签名称" padding='50px 30px' maxlength='10'></wh-input>

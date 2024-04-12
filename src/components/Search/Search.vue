@@ -1,9 +1,17 @@
-
+<!--
+ * @Description:搜索组件
+ * @Date: 2021-05-13 10:45:50
+ * @LastEditTime: 2021-05-19 11:21:28
+ * @FilePath: \WarblerHomepage\src\components\Search\Search.vue
+-->
+<template>
+  <div class="search-box">
+    <!-- 输入框区域 -->
     <div class="content">
       <input type="text" class="search-input" :maxlength='100' placeholder="请输入搜索内容" v-model="value" @keyup.enter="handleClick('baidu')">
       <span></span>
     </div>
-    
+    <!-- 图标区域 -->
     <div class="icons">
       <i class="iconfont" v-for='(item,index) in initData' :key='index' @click="handleClick(item.type)" v-html='item.icon' :title='item.title'></i>
     </div>

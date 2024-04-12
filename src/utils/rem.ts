@@ -1,3 +1,10 @@
+/*
+ * @Description:rem布局入口文件
+ * @Date: 2021-04-16 14:13:13
+ * @LastEditTime: 2021-04-16 15:17:56
+ * @FilePath: \warbler-homepage\src\utils\rem.ts
+ */
+
 function setRem(): void {
   // 获取浏览器可视区域尺寸
   const clientWidth = document.documentElement.clientWidth;

@@ -1,3 +1,9 @@
+/*
+ * @Description:书签组件的一些基础配置,数据,接口等
+ * @Date: 2021-04-26 11:41:18
+ * @LastEditTime: 2021-06-02 14:42:10
+ * @FilePath: \WarblerHomepage\src\components\MarkList\index.ts
+ */
 import { RulesProp } from 'base/Input/index';
 
 // 单个书签

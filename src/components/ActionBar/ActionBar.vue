@@ -1,4 +1,9 @@
-
+<!--
+ * @Description:操作栏
+ * @Date: 2021-05-11 17:28:17
+ * @LastEditTime: 2021-08-18 07:54:12
+ * @FilePath: \WarblerHomepage\src\components\ActionBar\ActionBar.vue
+-->
 <template>
   <div class="action-bar-box">
     <i class="iconfont"

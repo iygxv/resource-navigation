@@ -1,4 +1,9 @@
-
+<!--
+ * @Description:form表单组件
+ * @Date: 2021-04-24 22:00:43
+ * @LastEditTime: 2021-05-11 18:02:33
+ * @FilePath: \warbler-homepage\src\baseComponents\Form\Wh-form.vue
+-->
 <template>
   <form class='valid-form-container'>
     <slot name='default'></slot>

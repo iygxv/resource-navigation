@@ -1,4 +1,11 @@
-
+<!--
+ * @Description:message组件
+ * @Date: 2021-04-28 10:23:04
+ * @LastEditTime: 2021-05-12 13:58:04
+ * @FilePath: \warbler-homepage\src\baseComponents\Message\Message.vue
+-->
+<template>
+  <!-- 过渡效果 淡入淡出 并且移动一个身位 -->
   <transition name='message' @after-leave="$emit('destroy')">
     <div :class="classes" v-show='visiable' :style='styles' class="message">
       {{message}}

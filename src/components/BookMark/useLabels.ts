@@ -1,3 +1,9 @@
+/*
+ * @Description:收藏夹组件中跟标签相关的操作
+ * @Date: 2021-04-26 16:15:26
+ * @LastEditTime: 2021-09-09 11:26:51
+ * @FilePath: \WarblerHomepage\src\components\BookMark\useLabels.ts
+ */
 import { LabelListProps, BookmarkState } from './index';
 
 import createMessage from 'base/Message/index';

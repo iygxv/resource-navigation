@@ -1,3 +1,9 @@
+/*
+ * @Description:标签列表组件中跟Dialog相关操作
+ * @Date: 2021-04-25 13:08:49
+ * @LastEditTime: 2021-05-12 19:15:52
+ * @FilePath: \warbler-homepage\src\components\LabelList\useDialog.ts
+ */
 import { reactive } from 'vue';
 import { RulesProp } from 'base/Input/index';
 import { DialogState } from 'coms/LabelList/index';

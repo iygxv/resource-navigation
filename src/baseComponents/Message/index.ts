@@ -1,3 +1,9 @@
+/*
+ * @Description:message组件
+ * @Date: 2021-04-28 10:18:35
+ * @LastEditTime: 2021-05-14 10:12:59
+ * @FilePath: \warbler-homepage\src\baseComponents\Message\index.ts
+ */
 import Message from './Message.vue';
 import { createVNode, render, VNode, reactive, computed } from 'vue';
 

@@ -1,3 +1,10 @@
+/*
+ * @Description:定制主题组件
+ * @Date: 2021-06-03 16:42:43
+ * @LastEditTime: 2021-06-08 10:30:31
+ * @FilePath: \WarblerHomepage\src\components\Theme\index.ts
+ */
+
 export interface ThemeItemType {
   title: string;
   content: string;

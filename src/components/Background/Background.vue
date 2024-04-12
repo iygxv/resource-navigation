@@ -1,6 +1,15 @@
-
+<!--
+ * @Description:背景组件
+ * @Date: 2021-04-16 15:21:57
+ * @LastEditTime: 2021-05-17 19:44:48
+ * @FilePath: \warbler-homepage\src\components\Background\Background.vue
+-->
+<template>
+  <!-- 背景组件  鼠标右键点击开启高斯模糊效果 -->
+  <div class="back-box">
+    <!-- 一个黑色半透明的遮罩层 使图片不那么光亮耀眼 -->
     <div class="cover"></div>
-    
+    <!-- 这个是获取必应每日壁纸的接口  后续支持自定义上传 -->
     <img src="https://api.dujin.org/bing/1920.php" class='back' />
   </div>
 </template>
